@@ -175,12 +175,12 @@
 ## 📊 GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=adwait39&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adwait39&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=jupyter%20notebook,html,css" alt="Top languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adwait39&theme=tokyonight" alt="profile details" />
 </p>
-
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=adwait39&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=adwait39&theme=tokyonight" alt="stats" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=adwait39&theme=tokyonight" alt="repos per language" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=adwait39&theme=tokyonight" alt="most commit language" />
 </p>
 
 <p align="center">

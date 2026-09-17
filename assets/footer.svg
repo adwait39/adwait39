@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="w" x1="0" x2="1"><stop offset="0" stop-color="#1f6feb"/><stop offset="1" stop-color="#8957e5"/></linearGradient>
+    <clipPath id="r"><rect width="1200" height="150" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="150" fill="#0d1117"/>
+    <path d="M0 95 C 200 60, 400 130, 600 95 S 1000 60, 1200 95 L1200 150 L0 150 Z" fill="url(#w)" opacity="0.35"/>
+    <path d="M0 110 C 250 80, 450 140, 700 105 S 1050 80, 1200 110 L1200 150 L0 150 Z" fill="url(#w)" opacity="0.55"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="149" rx="18" fill="none" stroke="#30363d"/>
+  <text x="600" y="52" text-anchor="middle" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#f0f6fc">Open to AI / backend / platform engineering roles</text>
+  <text x="600" y="80" text-anchor="middle" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Menlo, monospace" font-size="15" fill="#8b949e">adwaitd393@gmail.com  ·  linkedin.com/in/adwaitpdesai  ·  github.com/adwait39</text>
+</svg>

@@ -1,8 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="footer">
   <defs>
-    <linearGradient id="w" x1="0" x2="1"><stop offset="0" stop-color="#1f6feb"/><stop offset="1" stop-color="#8957e5"/></linearGradient>
-    <clipPath id="r"><rect width="1200" height="150" rx="18"/></clipPath>
+    <linearGradient id="accent" x1="0" x2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#bc8cff"/></linearGradient>
+    <radialGradient id="glowA" cx="0%" cy="0%" r="70%"><stop offset="0" stop-color="#1f6feb" stop-opacity="0.35"/><stop offset="1" stop-color="#1f6feb" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB" cx="100%" cy="100%" r="70%"><stop offset="0" stop-color="#8957e5" stop-opacity="0.30"/><stop offset="1" stop-color="#8957e5" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#30363d"/></pattern>
   </defs>
+  <linearGradient id="w" x1="0" x2="1"><stop offset="0" stop-color="#1f6feb"/><stop offset="1" stop-color="#8957e5"/></linearGradient>
+  <clipPath id="r"><rect width="1200" height="150" rx="18"/></clipPath>
   <g clip-path="url(#r)">
     <rect width="1200" height="150" fill="#0d1117"/>
     <path d="M0 95 C 200 60, 400 130, 600 95 S 1000 60, 1200 95 L1200 150 L0 150 Z" fill="url(#w)" opacity="0.35"/>

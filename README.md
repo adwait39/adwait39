@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/adwaitpdesai"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://linkedin.com/in/adwaitpdesai"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:adwaitd393@gmail.com"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>&nbsp;
   <a href="https://github.com/adwait39?tab=repositories"><img src="https://img.shields.io/badge/Repositories-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>&nbsp;
   <img src="https://komarev.com/ghpvc/?username=adwait39&label=Profile%20views&color=1f6feb&style=for-the-badge" alt="profile views" />
@@ -26,14 +26,14 @@ I like problems that sit between machine learning and infrastructure: making ret
 </td>
 <td width="40%" valign="top">
 
-| | |
-|---|---|
-| **Role** | AI Engineer Intern, C-Suite Comp |
-| **Education** | M.S. CS, CU Boulder (GPA 3.72) <br/> B.E. IT, PICT Pune (8.23/10) |
-| **Research** | Patent co-author, 2 publications |
-| **Impact** | Data behind research cited by Bloomberg and CFO.com |
-| **Location** | Boulder, CO (remote-friendly) |
-| **Contact** | adwaitd393@gmail.com |
+<table>
+  <tr><td><b>Role</b></td><td>AI Engineer Intern, C-Suite Comp</td></tr>
+  <tr><td><b>Education</b></td><td>M.S. CS, CU Boulder (GPA 3.72)<br/>B.E. IT, PICT Pune (8.23/10)</td></tr>
+  <tr><td><b>Research</b></td><td>Patent co-author, 2 publications</td></tr>
+  <tr><td><b>Impact</b></td><td>Data behind research cited by Bloomberg and CFO.com</td></tr>
+  <tr><td><b>Location</b></td><td>Boulder, CO (remote-friendly)</td></tr>
+  <tr><td><b>Contact</b></td><td><a href="mailto:adwaitd393@gmail.com">adwaitd393@gmail.com</a></td></tr>
+</table>
 
 </td>
 </tr>

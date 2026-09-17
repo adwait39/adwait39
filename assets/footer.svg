@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140" role="img" aria-label="footer">
   <defs>
     <linearGradient id="accent" x1="0" x2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#bc8cff"/></linearGradient>
     <radialGradient id="glowA" cx="0%" cy="0%" r="70%"><stop offset="0" stop-color="#1f6feb" stop-opacity="0.35"/><stop offset="1" stop-color="#1f6feb" stop-opacity="0"/></radialGradient>
@@ -6,13 +6,13 @@
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#30363d"/></pattern>
   </defs>
   <linearGradient id="w" x1="0" x2="1"><stop offset="0" stop-color="#1f6feb"/><stop offset="1" stop-color="#8957e5"/></linearGradient>
-  <clipPath id="r"><rect width="1200" height="150" rx="18"/></clipPath>
+  <clipPath id="r"><rect width="900" height="140" rx="18"/></clipPath>
   <g clip-path="url(#r)">
-    <rect width="1200" height="150" fill="#0d1117"/>
-    <path d="M0 95 C 200 60, 400 130, 600 95 S 1000 60, 1200 95 L1200 150 L0 150 Z" fill="url(#w)" opacity="0.35"/>
-    <path d="M0 110 C 250 80, 450 140, 700 105 S 1050 80, 1200 110 L1200 150 L0 150 Z" fill="url(#w)" opacity="0.55"/>
+    <rect width="900" height="140" fill="#0d1117"/>
+    <path d="M0 88 C 150 56, 300 120, 450 88 S 750 56, 900 88 L900 140 L0 140 Z" fill="url(#w)" opacity="0.35"/>
+    <path d="M0 102 C 190 74, 340 130, 525 98 S 790 74, 900 102 L900 140 L0 140 Z" fill="url(#w)" opacity="0.55"/>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="149" rx="18" fill="none" stroke="#30363d"/>
-  <text x="600" y="52" text-anchor="middle" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#f0f6fc">Open to AI / backend / platform engineering roles</text>
-  <text x="600" y="80" text-anchor="middle" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Menlo, monospace" font-size="15" fill="#8b949e">adwaitd393@gmail.com  ·  linkedin.com/in/adwaitpdesai  ·  github.com/adwait39</text>
+  <rect x="0.5" y="0.5" width="899" height="139" rx="18" fill="none" stroke="#30363d"/>
+  <text x="450" y="50" text-anchor="middle" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#f0f6fc">Open to AI / backend / platform engineering roles</text>
+  <text x="450" y="78" text-anchor="middle" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Menlo, monospace" font-size="14" fill="#8b949e">adwaitd393@gmail.com  ·  linkedin.com/in/adwaitpdesai  ·  github.com/adwait39</text>
 </svg>

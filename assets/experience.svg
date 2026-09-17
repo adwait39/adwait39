@@ -1,32 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="422" viewBox="0 0 1200 422" role="img" aria-label="Experience">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="528" viewBox="0 0 900 528" role="img" aria-label="Experience">
   <defs>
     <linearGradient id="accent" x1="0" x2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#bc8cff"/></linearGradient>
     <radialGradient id="glowA" cx="0%" cy="0%" r="70%"><stop offset="0" stop-color="#1f6feb" stop-opacity="0.35"/><stop offset="1" stop-color="#1f6feb" stop-opacity="0"/></radialGradient>
     <radialGradient id="glowB" cx="100%" cy="100%" r="70%"><stop offset="0" stop-color="#8957e5" stop-opacity="0.30"/><stop offset="1" stop-color="#8957e5" stop-opacity="0"/></radialGradient>
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#30363d"/></pattern>
   </defs>
-  <clipPath id="clip"><rect width="1200" height="422" rx="18"/></clipPath>
-  <g clip-path="url(#clip)"><rect width="1200" height="422" fill="#0d1117"/><rect width="1200" height="422" fill="url(#dots)"/><rect width="1200" height="422" fill="url(#glowA)"/><rect width="1200" height="422" fill="url(#glowB)"/></g>
-  <rect x="0.5" y="0.5" width="1199" height="421" rx="18" fill="none" stroke="#30363d"/>
-  <line x1="60" y1="44" x2="60" y2="392" stroke="#30363d" stroke-width="2"/>
-  <circle cx="60" cy="60" r="9" fill="#0d1117" stroke="#3fb950" stroke-width="3"/>
-  <text x="92" y="66" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="700" fill="#f0f6fc">AI Engineer Intern</text>
-  <text x="92" y="88" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13.5" fill="#8b949e">C-Suite Comp · Houston, TX (remote)</text>
-  <text x="1160" y="66" text-anchor="end" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Menlo, monospace" font-size="13" fill="#3fb950">Jul 2026 – Present</text>
-  <text x="92" y="112" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#c9d1d9">4 production data + LLM pipelines on GCP over 609K SEC filings · multi-company RAG 15 min → 3 min · projected AI cost $20K → $75/yr</text>
-  <circle cx="60" cy="152" r="9" fill="#0d1117" stroke="#39d2c0" stroke-width="3"/>
-  <text x="92" y="158" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="700" fill="#f0f6fc">Graduate Teaching Assistant</text>
-  <text x="92" y="180" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13.5" fill="#8b949e">Remote Sensing Lab · CU Boulder</text>
-  <text x="1160" y="158" text-anchor="end" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Menlo, monospace" font-size="13" fill="#39d2c0">Aug 2026 – Present</text>
-  <text x="92" y="204" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#c9d1d9">Debug Python/MATLAB ML code with 100+ students across 6 modules; code reviews and technical interviews for research projects</text>
-  <circle cx="60" cy="244" r="9" fill="#0d1117" stroke="#bc8cff" stroke-width="3"/>
-  <text x="92" y="250" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="700" fill="#f0f6fc">Graduate Research Assistant</text>
-  <text x="92" y="272" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13.5" fill="#8b949e">Quantitative ML · CU Boulder</text>
-  <text x="1160" y="250" text-anchor="end" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Menlo, monospace" font-size="13" fill="#bc8cff">May – Aug 2026</text>
-  <text x="92" y="296" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#c9d1d9">Dividend-date forecasting over 340+ companies: 83% date accuracy, 91% precision on rare events · versioned artifacts + gated releases</text>
-  <circle cx="60" cy="336" r="9" fill="#0d1117" stroke="#d29922" stroke-width="3"/>
-  <text x="92" y="342" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="700" fill="#f0f6fc">Full Stack Engineer Intern</text>
-  <text x="92" y="364" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13.5" fill="#8b949e">Techpeek · Bengaluru, India</text>
-  <text x="1160" y="342" text-anchor="end" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Menlo, monospace" font-size="13" fill="#d29922">Sep 2024 – Jan 2025</text>
-  <text x="92" y="388" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#c9d1d9">Billing + LLM gateway for 3 subscription tiers · 10K payment events replayed with zero duplicates · 300+ req/s under 200 ms p95</text>
+  <clipPath id="clip"><rect width="900" height="528" rx="18"/></clipPath>
+  <g clip-path="url(#clip)"><rect width="900" height="528" fill="#0d1117"/><rect width="900" height="528" fill="url(#dots)"/><rect width="900" height="528" fill="url(#glowA)"/><rect width="900" height="528" fill="url(#glowB)"/></g>
+  <rect x="0.5" y="0.5" width="899" height="527" rx="18" fill="none" stroke="#30363d"/>
+  <line x1="48" y1="40" x2="48" y2="494" stroke="#30363d" stroke-width="2"/>
+  <circle cx="48" cy="56" r="9" fill="#0d1117" stroke="#3fb950" stroke-width="3"/>
+  <text x="78" y="63" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="700" fill="#f0f6fc">AI Engineer Intern</text>
+  <text x="78" y="87" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#8b949e">C-Suite Comp · Houston, TX (remote)</text>
+  <text x="868" y="63" text-anchor="end" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Menlo, monospace" font-size="14" fill="#3fb950">Jul 2026 – Present</text>
+  <text x="78" y="112" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c9d1d9">4 production data + LLM pipelines on GCP over 609K SEC filings · multi-company RAG 15 min → 3 min</text><text x="78" y="134" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c9d1d9">· projected AI cost $20K → $75/yr</text>
+  <circle cx="48" cy="178" r="9" fill="#0d1117" stroke="#39d2c0" stroke-width="3"/>
+  <text x="78" y="185" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="700" fill="#f0f6fc">Graduate Teaching Assistant</text>
+  <text x="78" y="209" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#8b949e">Remote Sensing Lab · CU Boulder</text>
+  <text x="868" y="185" text-anchor="end" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Menlo, monospace" font-size="14" fill="#39d2c0">Aug 2026 – Present</text>
+  <text x="78" y="234" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c9d1d9">Debug Python/MATLAB ML code with 100+ students across 6 modules; code reviews and technical</text><text x="78" y="256" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c9d1d9">interviews for research projects</text>
+  <circle cx="48" cy="300" r="9" fill="#0d1117" stroke="#bc8cff" stroke-width="3"/>
+  <text x="78" y="307" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="700" fill="#f0f6fc">Graduate Research Assistant</text>
+  <text x="78" y="331" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#8b949e">Quantitative ML · CU Boulder</text>
+  <text x="868" y="307" text-anchor="end" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Menlo, monospace" font-size="14" fill="#bc8cff">May – Aug 2026</text>
+  <text x="78" y="356" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c9d1d9">Dividend-date forecasting over 340+ companies: 83% date accuracy, 91% precision on rare events ·</text><text x="78" y="378" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c9d1d9">versioned artifacts + gated releases</text>
+  <circle cx="48" cy="422" r="9" fill="#0d1117" stroke="#d29922" stroke-width="3"/>
+  <text x="78" y="429" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="700" fill="#f0f6fc">Full Stack Engineer Intern</text>
+  <text x="78" y="453" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#8b949e">Techpeek · Bengaluru, India</text>
+  <text x="868" y="429" text-anchor="end" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Menlo, monospace" font-size="14" fill="#d29922">Sep 2024 – Jan 2025</text>
+  <text x="78" y="478" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c9d1d9">Billing + LLM gateway for 3 subscription tiers · 10K payment events replayed with zero duplicates</text><text x="78" y="500" font-family="Segoe UI, Inter, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c9d1d9">· 300+ req/s under 200 ms p95</text>
 </svg>

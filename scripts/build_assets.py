@@ -68,7 +68,7 @@ def chips(items: list[tuple[str, str]], x: int, y: int, max_x: int, size: float 
 
 # --------------------------------------------------------------------------- hero
 def hero() -> str:
-    W, H = 1200, 360
+    W, H = 900, 330
     taglines = [
         "Building agentic AI that asks before it acts",
         "Event-driven ML platforms on GCP and Kubernetes",
@@ -79,30 +79,30 @@ def hero() -> str:
     for i, t in enumerate(taglines):
         s, e, fade = i / n, (i + 1) / n, 0.15 / n
         keys = ";".join(f"{k:.4f}" for k in [0, s, s + fade, e - fade, e, 1])
-        tag += f'<text x="88" y="300" font-family="{MONO}" font-size="20" fill="{BLUE}" opacity="0">{esc(t)}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="{keys}" dur="{cycle:.1f}s" repeatCount="indefinite"/></text>'
+        tag += f'<text x="72" y="280" font-family="{MONO}" font-size="17" fill="{BLUE}" opacity="0">{esc(t)}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="{keys}" dur="{cycle:.1f}s" repeatCount="indefinite"/></text>'
 
-    rows = [("role", "AI Engineer Intern @ C-Suite Comp", GREEN), ("study", "M.S. CS · CU Boulder · class of 2027", PURPLE),
-            ("building", "agentic incident-response platform", ORANGE), ("stack", "python · fastapi · gcp · k8s · faiss", BLUE),
-            ("focus", "LLM systems · MLOps · backends", MUTED)]
-    term = f'<text x="750" y="118" font-family="{MONO}" font-size="15" fill="{MUTED}">$ <tspan fill="{TEXT}">adwait --status</tspan></text>'
+    rows = [("role", "AI Intern @ C-Suite Comp", GREEN), ("study", "M.S. CS · CU Boulder '27", PURPLE),
+            ("building", "agentic incident response", ORANGE), ("stack", "python · fastapi · gcp", BLUE),
+            ("focus", "LLM systems · MLOps", MUTED)]
+    term = f'<text x="566" y="112" font-family="{MONO}" font-size="14" fill="{MUTED}">$ <tspan fill="{TEXT}">adwait --status</tspan></text>'
     for i, (k, v, c) in enumerate(rows):
-        y = 148 + i * 30
-        term += f'<text x="750" y="{y}" font-family="{MONO}" font-size="15" fill="{MUTED}">{k}</text><text x="852" y="{y}" font-family="{MONO}" font-size="15" fill="{c}">{esc(v)}</text>'
+        y = 142 + i * 29
+        term += f'<text x="566" y="{y}" font-family="{MONO}" font-size="14" fill="{MUTED}">{k}</text><text x="650" y="{y}" font-family="{MONO}" font-size="14" fill="{c}">{esc(v)}</text>'
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Adwait Desai">
   {defs()}
   {card_bg(W, H)}
-  <rect x="60" y="78" width="6" height="150" rx="3" fill="url(#accent)"/>
-  <text x="88" y="130" font-family="{FONT}" font-size="66" font-weight="800" fill="{TEXT}" letter-spacing="-1">Adwait Desai</text>
-  <text x="88" y="176" font-family="{FONT}" font-size="22" font-weight="600" fill="{MUTED}">AI Engineer  ·  Backend &amp; Cloud Systems  ·  MLOps</text>
-  <text x="88" y="212" font-family="{FONT}" font-size="17" fill="{MUTED}">M.S. Computer Science @ CU Boulder  ·  Patent co-author  ·  2 publications</text>
-  <text x="60" y="300" font-family="{MONO}" font-size="20" fill="{GREEN}">&gt;</text>{tag}
-  <rect x="730" y="60" width="440" height="236" rx="12" fill="{CARD}" stroke="{BORDER}"/>
-  <rect x="730" y="60" width="440" height="34" rx="12" fill="#21262d"/><rect x="730" y="82" width="440" height="12" fill="#21262d"/>
-  <circle cx="750" cy="77" r="5" fill="#ff5f56"/><circle cx="768" cy="77" r="5" fill="#ffbd2e"/><circle cx="786" cy="77" r="5" fill="#27c93f"/>
-  <text x="950" y="82" text-anchor="middle" font-family="{MONO}" font-size="12" fill="{MUTED}">adwait39 — zsh</text>
+  <rect x="48" y="72" width="6" height="140" rx="3" fill="url(#accent)"/>
+  <text x="72" y="122" font-family="{FONT}" font-size="54" font-weight="800" fill="{TEXT}" letter-spacing="-1">Adwait Desai</text>
+  <text x="72" y="162" font-family="{FONT}" font-size="20" font-weight="600" fill="{MUTED}">AI Engineer  ·  Backend &amp; Cloud  ·  MLOps</text>
+  <text x="72" y="196" font-family="{FONT}" font-size="16" fill="{MUTED}">M.S. CS @ CU Boulder  ·  Patent co-author  ·  2 publications</text>
+  <text x="48" y="280" font-family="{MONO}" font-size="17" fill="{GREEN}">&gt;</text>{tag}
+  <rect x="548" y="56" width="304" height="230" rx="12" fill="{CARD}" stroke="{BORDER}"/>
+  <rect x="548" y="56" width="304" height="34" rx="12" fill="#21262d"/><rect x="548" y="78" width="304" height="12" fill="#21262d"/>
+  <circle cx="568" cy="73" r="5" fill="#ff5f56"/><circle cx="586" cy="73" r="5" fill="#ffbd2e"/><circle cx="604" cy="73" r="5" fill="#27c93f"/>
+  <text x="700" y="78" text-anchor="middle" font-family="{MONO}" font-size="12" fill="{MUTED}">adwait39 — zsh</text>
   {term}
-  <rect x="750" y="284" width="9" height="16" fill="{TEXT}"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+  <rect x="566" y="272" width="8" height="15" fill="{TEXT}"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
 </svg>
 """
 
@@ -130,17 +130,19 @@ PROJECTS = [
 ]
 
 
-def project_card(p: dict) -> str:
-    W, H = 590, 264
-    lines = wrap(p["body"], 74)[:4]
-    body = "".join(f'<text x="28" y="{104 + i*22}" font-family="{FONT}" font-size="14.5" fill="{BODY}">{esc(l)}</text>' for i, l in enumerate(lines))
-    ch, _ = chips(p["chips"], 28, 196, W - 20, 11.5)
+def project_card(p: dict, fixed_h: int | None = None) -> str:
+    W = 440
+    lines = wrap(p["body"], 50)[:7]
+    body = "".join(f'<text x="24" y="{102 + i*23}" font-family="{FONT}" font-size="15" fill="{BODY}">{esc(l)}</text>' for i, l in enumerate(lines))
+    chip_y = 102 + len(lines) * 23 + 4
+    ch, last = chips(p["chips"], 24, chip_y, W - 16, 12)
+    H = fixed_h or (last + 24 + 22)
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(p['title'])}">
   {defs()}
   {card_bg(W, H, 16, glow=False)}
   <rect x="0" y="0" width="{W}" height="4" fill="{p['color']}" clip-path="url(#clip)"/>
-  <text x="28" y="48" font-family="{FONT}" font-size="21" font-weight="700" fill="{TEXT}">{esc(p['title'])}</text>
-  <text x="28" y="72" font-family="{MONO}" font-size="12" fill="{MUTED}">{esc(p['tag'])}</text>
+  <text x="24" y="46" font-family="{FONT}" font-size="20" font-weight="700" fill="{TEXT}">{esc(p['title'])}</text>
+  <text x="24" y="70" font-family="{MONO}" font-size="12.5" fill="{MUTED}">{esc(p['tag'])}</text>
   {body}
   {ch}
 </svg>
@@ -161,17 +163,19 @@ EXPERIENCE = [
 
 
 def experience() -> str:
-    W, step, top = 1200, 92, 44
-    H = top + step * len(EXPERIENCE) + 10
-    out = f'<line x1="60" y1="{top}" x2="60" y2="{H-30}" stroke="{BORDER}" stroke-width="2"/>'
+    W, step, top = 900, 122, 40
+    H = top + step * len(EXPERIENCE)
+    out = f'<line x1="48" y1="{top}" x2="48" y2="{H-34}" stroke="{BORDER}" stroke-width="2"/>'
     for i, (role, org, when, color, hl) in enumerate(EXPERIENCE):
         y = top + i * step + 12
+        hl_lines = wrap(hl, 98)[:2]
+        hl_svg = "".join(f'<text x="78" y="{y+60+j*22}" font-family="{FONT}" font-size="15" fill="{BODY}">{esc(l)}</text>' for j, l in enumerate(hl_lines))
         out += f"""
-  <circle cx="60" cy="{y+4}" r="9" fill="{BG}" stroke="{color}" stroke-width="3"/>
-  <text x="92" y="{y+10}" font-family="{FONT}" font-size="19" font-weight="700" fill="{TEXT}">{esc(role)}</text>
-  <text x="92" y="{y+32}" font-family="{FONT}" font-size="13.5" fill="{MUTED}">{esc(org)}</text>
-  <text x="{W-40}" y="{y+10}" text-anchor="end" font-family="{MONO}" font-size="13" fill="{color}">{esc(when)}</text>
-  <text x="92" y="{y+56}" font-family="{FONT}" font-size="14" fill="{BODY}">{esc(hl)}</text>"""
+  <circle cx="48" cy="{y+4}" r="9" fill="{BG}" stroke="{color}" stroke-width="3"/>
+  <text x="78" y="{y+11}" font-family="{FONT}" font-size="21" font-weight="700" fill="{TEXT}">{esc(role)}</text>
+  <text x="78" y="{y+35}" font-family="{FONT}" font-size="15" fill="{MUTED}">{esc(org)}</text>
+  <text x="{W-32}" y="{y+11}" text-anchor="end" font-family="{MONO}" font-size="14" fill="{color}">{esc(when)}</text>
+  {hl_svg}"""
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Experience">
   {defs()}
   {card_bg(W, H)}
@@ -192,10 +196,10 @@ SKILLS = [
 
 
 def skills() -> str:
-    W, y, out = 1200, 36, ""
+    W, y, out = 900, 30, ""
     for label, color, items in SKILLS:
-        out += f'<text x="36" y="{y+17}" font-family="{MONO}" font-size="13" font-weight="700" fill="{color}">{esc(label)}</text>'
-        ch, last = chips([(s, color) for s in items], 210, y, W - 30, 12)
+        out += f'<text x="28" y="{y+17}" font-family="{MONO}" font-size="14" font-weight="700" fill="{color}">{esc(label)}</text>'
+        ch, last = chips([(s, color) for s in items], 200, y, W - 24, 12.5)
         out += ch
         y = last + 46
     H = y - 6
@@ -209,11 +213,11 @@ def skills() -> str:
 
 # --------------------------------------------------------------------- highlights
 def highlights() -> str:
-    W, H = 1200, 150
-    tiles = [("1", "patent co-authored", "NLP & information retrieval, shipped commercially", PURPLE),
+    W, H = 900, 168
+    tiles = [("1", "patent co-authored", "NLP and information retrieval, shipped as a product", PURPLE),
              ("2", "international publications", "Journal of Scientific Computing, and one more", BLUE),
              ("Top 10", "AWS GameDay 2026", "3rd place, PICT Hackathon 2025", ORANGE),
-             ("Bloomberg", "& CFO.com cited research", "built the data infrastructure behind it", GREEN)]
+             ("Bloomberg", "and CFO.com cited research", "built the data infrastructure behind it", GREEN)]
     gap = 16
     tw = (W - 5 * gap) // 4
     out = ""
@@ -222,9 +226,8 @@ def highlights() -> str:
         out += f"""
   <rect x="{x}" y="{gap}" width="{tw}" height="{H-2*gap}" rx="14" fill="{CARD}" stroke="{BORDER}"/>
   <rect x="{x}" y="{gap}" width="4" height="{H-2*gap}" rx="2" fill="{color}"/>
-  <text x="{x+24}" y="{gap+50}" font-family="{FONT}" font-size="34" font-weight="800" fill="{TEXT}">{esc(big)}</text>
-  <text x="{x+24}" y="{gap+74}" font-family="{FONT}" font-size="14" font-weight="600" fill="{color}">{esc(cap)}</text>
-  <text x="{x+24}" y="{gap+96}" font-family="{FONT}" font-size="12" fill="{MUTED}">{esc(sub)}</text>"""
+  <text x="{x+20}" y="{gap+48}" font-family="{FONT}" font-size="32" font-weight="800" fill="{TEXT}">{esc(big)}</text>
+  <text x="{x+20}" y="{gap+72}" font-family="{FONT}" font-size="14" font-weight="600" fill="{color}">{esc(cap)}</text>""" + "".join(f'<text x="{x+20}" y="{gap+94+j*17}" font-family="{FONT}" font-size="12.5" fill="{MUTED}">{esc(l)}</text>' for j, l in enumerate(wrap(sub, 30)[:2]))
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Highlights">
   {defs()}
   {card_bg(W, H)}
@@ -235,19 +238,19 @@ def highlights() -> str:
 
 # ------------------------------------------------------------------------ footer
 def footer() -> str:
-    W, H = 1200, 150
+    W, H = 900, 140
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="footer">
   {defs()}
   <linearGradient id="w" x1="0" x2="1"><stop offset="0" stop-color="#1f6feb"/><stop offset="1" stop-color="#8957e5"/></linearGradient>
   <clipPath id="r"><rect width="{W}" height="{H}" rx="18"/></clipPath>
   <g clip-path="url(#r)">
     <rect width="{W}" height="{H}" fill="{BG}"/>
-    <path d="M0 95 C 200 60, 400 130, 600 95 S 1000 60, 1200 95 L1200 150 L0 150 Z" fill="url(#w)" opacity="0.35"/>
-    <path d="M0 110 C 250 80, 450 140, 700 105 S 1050 80, 1200 110 L1200 150 L0 150 Z" fill="url(#w)" opacity="0.55"/>
+    <path d="M0 88 C 150 56, 300 120, 450 88 S 750 56, 900 88 L900 140 L0 140 Z" fill="url(#w)" opacity="0.35"/>
+    <path d="M0 102 C 190 74, 340 130, 525 98 S 790 74, 900 102 L900 140 L0 140 Z" fill="url(#w)" opacity="0.55"/>
   </g>
   <rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="18" fill="none" stroke="{BORDER}"/>
-  <text x="600" y="52" text-anchor="middle" font-family="{FONT}" font-size="22" font-weight="700" fill="{TEXT}">Open to AI / backend / platform engineering roles</text>
-  <text x="600" y="80" text-anchor="middle" font-family="{MONO}" font-size="15" fill="{MUTED}">adwaitd393@gmail.com  ·  linkedin.com/in/adwaitpdesai  ·  github.com/adwait39</text>
+  <text x="450" y="50" text-anchor="middle" font-family="{FONT}" font-size="22" font-weight="700" fill="{TEXT}">Open to AI / backend / platform engineering roles</text>
+  <text x="450" y="78" text-anchor="middle" font-family="{MONO}" font-size="14" fill="{MUTED}">adwaitd393@gmail.com  ·  linkedin.com/in/adwaitpdesai  ·  github.com/adwait39</text>
 </svg>
 """
 
@@ -257,8 +260,10 @@ if __name__ == "__main__":
         old.unlink()
     files = {"hero.svg": hero(), "experience.svg": experience(), "skills.svg": skills(),
              "highlights.svg": highlights(), "footer.svg": footer()}
+    import re
+    tallest = max(int(re.search(r'height="(\d+)"', project_card(p)).group(1)) for p in PROJECTS)
     for p in PROJECTS:
-        files[f"project-{p['slug']}.svg"] = project_card(p)
+        files[f"project-{p['slug']}.svg"] = project_card(p, tallest)
     for name, svg in files.items():
         (OUT / name).write_text(svg, encoding="utf-8", newline="\n")
         print("wrote", name)
